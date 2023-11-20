@@ -5,8 +5,5 @@ Before installing any software on ubuntu, update the system.
 ```
 $ sudo apt-get update 
 ```
-<p align="center">
-    ![The San Juan Mountains are beautiful!](1.png )
-</p>
 
 ![The San Juan Mountains are beautiful!](1.png )
