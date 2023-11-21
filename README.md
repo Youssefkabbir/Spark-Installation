@@ -1,9 +1,25 @@
-# How to install apache Spark (version 3.5.0  ) on Ubuntu 23.04
-Apache Spark is a unified analytics engine for large-scale data processing. It provides high-level APIs in Java, Scala, Python and R, and an optimized engine that supports general execution graphs. It also supports a rich set of higher-level tools including Spark SQL for SQL and structured data processing, pandas API on Spark for pandas workloads, MLlib for machine learning, GraphX for graph processing, and Structured Streaming for incremental computation and stream processing.I love supporting the **[Reference](https://spark.apache.org/docs/3.5.0/)**
+# How to install Apache Spark (version 3.5.0  ) on Ubuntu 23.04
+```
+$ neofetch
+```
+![Ubunut](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/e8dc61a1-2184-48a8-9aad-cba406d2790c)
+
+Apache Spark is a unified analytics engine for large-scale data processing. It provides high-level APIs in Java, Scala, Python, and R, and an optimized engine that supports general execution graphs. It also supports a rich set of higher-level tools including Spark SQL for SQL and structured data processing, pandas API on Spark for pandas workloads, MLlib for machine learning, GraphX for graph processing, and Structured Streaming for incremental computation and stream processing.I love supporting the **[Reference](https://spark.apache.org/docs/3.5.0/)**
 ## Step 1: Update the System
-Before installing any software on ubuntu, update the system.
+Before installing any software on Ubuntu, update the system.
 ```
 $ sudo apt-get update 
 ```
+![Img1](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/37e5a356-3cdd-43e4-92c7-99192683ffd4)
 
-![Img1_1](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/ac6f8e06-0d2c-4e5c-a127-7c4173560e8a)
+Step 2: Install Java 
+To run Apache Spark on Ubuntu 23.04, we need to install Java  by running the following command:
+```
+$ sudo apt install openjdk-8-jdk -y
+```
+in my case, I have installed the 8 version of Java  because I want to install  Cassandra and it's  the OpenJDK-8-jdk  or OpenJDK-11-jdk.
+ I already  installed Java, that's why it shows me  this 
+
+![java](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/e8fdb78b-f9fb-4f73-8dd0-2f83503f2f75)
+ 
+
