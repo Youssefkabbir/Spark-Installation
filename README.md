@@ -6,4 +6,4 @@ Before installing any software on ubuntu, update the system.
 $ sudo apt-get update 
 ```
 
-![The San Juan Mountains are beautiful!](1.png )
+![Img1_1](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/ac6f8e06-0d2c-4e5c-a127-7c4173560e8a)
