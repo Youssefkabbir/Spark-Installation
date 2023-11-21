@@ -55,30 +55,51 @@ $ sudo apt-get install vim
 ```
 $ vim ~/.bashrc 
 ```
+```
 export SPARK_HOME=/opt/spark
 export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 export PYSPARK_PYTHON=/usr/bin/python
+```
 ![s4](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/24918300-8dea-4893-bab1-43813fbe6f3a)
 
+ESC , then SHIFT + ZZ to exit and return to Terminal
 
+## Step 3: Load the file
+The changes will take place after loading the file:
+```
+$ source ~/.profile
+```
+![s5](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/b2a2471a-01ab-4db6-8cb1-0edfd5d3ceba)
+
+How to Verify Apache Spark Installation on Ubuntu 23.04?
+Make use of the command below to verify Apache Spark installation on your system:
+```
+$ spark-shell --version
+```
 
 # How to Uninstall Apache Spark on Ubuntu 23.04?
 ![uninstall spark](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/265a9e06-e653-44bd-be76-060341d9bd30)
+
 Also, remove the environment variable you set earlier:
 
 ```
 $  vim ~/.bashrc
 ```
 ![variables](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/29c41583-239c-4011-9096-d40fbb165e68)
+
 Press *ENTER*, you will get this result:
 ![var2](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/854ee854-5cde-4c33-a085-3b802f2c5acc)
+
 Press *e* or *E* 
 ![RemovefromEnvirment](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/12b6d076-c3c2-4b4b-8e51-22f603bdafaf)
+
 Press *i* insert or remove text
 Remove these 3 lines
 w![r2](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/4818565e-68e9-413d-a334-eb2d43915be2)
+
 it will be like  these
 ![final](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/fdc1007d-a381-427f-9b8d-ed70ec3af98d)
+
  Press *ESC* ,then  *SHIFT* + ZZ to exit and return to *Terminal*
  
 That was all from this effective tutorial about installing and configuring Apache Spark on Ubuntu 23.04.
