@@ -34,8 +34,13 @@ Press *ENTER*, you will get this result:
 ![var2](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/854ee854-5cde-4c33-a085-3b802f2c5acc)
 Press *e* or *E* 
 ![RemovefromEnvirment](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/12b6d076-c3c2-4b4b-8e51-22f603bdafaf)
-Remove this 3 lines
+Press *i* insert or remove text
+Remove these 3 lines
 w![r2](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/4818565e-68e9-413d-a334-eb2d43915be2)
+it will be like  these
+![final](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/fdc1007d-a381-427f-9b8d-ed70ec3af98d)
+
+That was all from this effective tutorial about installing and configuring Apache Spark on Ubuntu 23.04.
 
 
 
