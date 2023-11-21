@@ -55,6 +55,10 @@ $ sudo apt-get install vim
 ```
 $ vim ~/.bashrc 
 ```
+export SPARK_HOME=/opt/spark
+export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+export PYSPARK_PYTHON=/usr/bin/python
+![s4](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/24918300-8dea-4893-bab1-43813fbe6f3a)
 
 
 
