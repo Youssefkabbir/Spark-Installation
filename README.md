@@ -30,8 +30,13 @@ Also, remove the environment variable you set earlier:
 $  vim ~/.bashrc
 ```
 ![variables](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/29c41583-239c-4011-9096-d40fbb165e68)
-Press *ENTER*,you will get this result:
+Press *ENTER*, you will get this result:
 ![var2](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/854ee854-5cde-4c33-a085-3b802f2c5acc)
+Press *e* or *E* 
+![RemovefromEnvirment](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/12b6d076-c3c2-4b4b-8e51-22f603bdafaf)
+Remove this 3 lines
+w![r2](https://github.com/Youssefkabbir/Spark-Installation/assets/59072693/4818565e-68e9-413d-a334-eb2d43915be2)
+
 
 
 
